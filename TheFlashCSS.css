@@ -1,0 +1,138 @@
+ .backgroundSet {
+    background-color: rgb(206, 137, 137);
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(201, 84, 84);
+    position: fixed;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navigation-bar>a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 50px;
+    line-height: 100px;
+    color: black;
+    font-size: large;
+}
+
+.TheFlashMargin {
+    margin-top: 20%;
+}
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(233, 197, 197);
+    box-shadow: 10px 10px 8px #7e6d6d;
+}
+
+#FlashTopPadding {
+    padding-top: 100px;
+}
+
+#SubPageTitle {
+    text-align: center;
+    color: rgb(44, 62, 80);
+}
+
+hr.LineStyling {
+    width: 80%;
+    border: 1px solid rgb(44, 62, 80);
+}
+
+
+/*
+    Flexbox
+    */
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.flexbox-Img {
+    align-self: center;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    background-color: rgb(133, 146, 158);
+    box-shadow: 10px 10px 8px #7e6d6d;
+}
+
+.Cont-Para {
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 30px;
+    padding: 20px;
+    color: rgb(229, 232, 232);
+    background-color: rgb(39, 55, 70);
+    box-shadow: 10px 10px 8px #7e6d6d;
+}
+
+
+/*
+    /Flexbox
+    */
+
+
+/*
+    Grid
+    */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.75fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "f13 f13" "f15 f51" "f2 f11" "f39 f39";
+    ;
+}
+
+.f13 {
+    grid-area: f13;
+    margin: 20px;
+}
+
+.f15 {
+    grid-area: f15;
+    margin: 20px;
+}
+
+.f51 {
+    grid-area: f51;
+    margin: 20px;
+}
+
+.f39 {
+    grid-area: f39;
+    margin: 20px;
+}
+
+.f2 {
+    grid-area: f2;
+    margin: 20px;
+}
+
+.f11 {
+    grid-area: f11;
+    margin: 20px;
+}
+
+
+/*
+    /Grid
+    */
