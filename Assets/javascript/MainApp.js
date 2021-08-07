@@ -8,24 +8,24 @@ let watchSeasonLengthOper = undefined
 
 function chnageToSourceTwo(watchSeason, seasonIntTxt, episodeToWatch) {
     getVidPlayer();
-    seasonIntTxtGlobal = seasonIntTxt;
-    episodeOnBinary = episodeToWatch - 1;
-    altStatus = watchSeason[episodeOnBinary]
-    vid.src = altStatus.epSrc;
-    EpNumberChanger.innerHTML = 'Season: ' + altStatus.SeasonTitleForEpButton + "<br>" + 'Episode: ' + altStatus.epNumber;
-    dirStatus = altStatus.status;
-    let watchSeasonLengthOper = watchSeason.length;
-    vid.onended = function() {
-        document.getElementById(altStatus.epNumber + 1 + 'S' + seasonIntTxtGlobal).click();
+    // seasonIntTxtGlobal = seasonIntTxt;
+    // episodeOnBinary = episodeToWatch - 1;
+    // altStatus = watchSeason[episodeOnBinary]
+    vid.src = "https://disk32.cizgifilmlerizle.com/getvid?evid=6WEXVY5eTLEFebP6cleAO-hDwsW-MP-pJXRpkC5S1NSrYAZq_yog11fhFl6TPYNeIkfHUbou3YcSPxk7TPMXOxL-UwDJK5ssYWu5E1U7tMViGDJzYV58bEGcAbtJUcDro4dUaaYCTcQseAYmR1ZaBjQkm2HyXjVSGY-neejh6n2O9i6ds9La87bfmc0wwqm3yQ5iWaBngRkg1yUlAbIBe2mPNwcLsyQUX9_kvQgFAChI6vWTZw57ifU1PsJ-HmsyLoOTMQDoOyaQVR90HZ2RiFtBG9a3A9E4gbMN3Su_jPY2BAsCJumlh8lCSeSAyG9MZSDaS3ekfxzR0MffnvWZ7SupuhPBug9wqW0te96T6uawIc-OiMANNU6_Z6KDW67pg5GbVymIOqMcbZtQAazW6pGNjy_aLS7k1F8pFQP75bgxGksQIbdQvJAA-uT10rDPiqhCAVqfkO54wAFSJCBtR2G6f-AoujZhYVwTNl7W05Gto1CQdZ9_OW3uZfsQeV0KDiwVZZffkmbxsrfyBPS75kOQ0Sh46SOtPhvmFvommnQ";
+    // EpNumberChanger.innerHTML = 'Season: ' + altStatus.SeasonTitleForEpButton + "<br>" + 'Episode: ' + altStatus.epNumber;
+    // dirStatus = altStatus.status;
+    // let watchSeasonLengthOper = watchSeason.length;
+    // vid.onended = function() {
+    //     document.getElementById(altStatus.epNumber + 1 + 'S' + seasonIntTxtGlobal).click();
 
-    };
-    if (altStatus.epNumber === watchSeasonLengthOper) {
-        vid.onended = function() {
-            document.getElementById('Season' + (seasonIntTxtGlobal + 1)).click();
-            document.getElementById(1 + 'S' + (seasonIntTxtGlobal + 1)).click();
-            console.log('next step');
-        }
-    }
+    // };
+    // if (altStatus.epNumber === watchSeasonLengthOper) {
+    //     vid.onended = function() {
+    //         document.getElementById('Season' + (seasonIntTxtGlobal + 1)).click();
+    //         document.getElementById(1 + 'S' + (seasonIntTxtGlobal + 1)).click();
+    //         console.log('next step');
+    //     }
+    // }
 
 }
 
