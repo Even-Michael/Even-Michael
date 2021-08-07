@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="videoContainer">
+        <video onclick="playPause()" id="videoBox" class="video" src="../../../Media/Media/box/Shrek_1.mp4"></video>
+        <div class="controls">
+            <div class="progress">
+                <div class="progressBar">
+                    <div class="watchedBar"></div>
+                    <div class="playHead"></div>
+                </div>
+                <div class="timeRemaining">
+                    00:00
+                </div>
+            </div>
+            <div class="EpStatus">
+                <!-- <img src="that-70s-show.logo.png" alt=""> -->
+                <p class="EpNumber" id="episodeNumber">
+                    Choose an Episode
+                </p>
+                <p class="EpTitle" id="episodeTitle">
+                    Choose an Episode
+                </p>
+            </div>
+            <div class="playPauseArea">
+                <img onclick="playVid(0)" id="playButton" class="icon playButton" src="VideoPlayerImages/PlayButtonColor.png" alt="playbutton">
+                <img onclick="pauseVid(1)" id="pauseButton" class="icon pauseButton" src="VideoPlayerImages/PauseButtonColor.png" alt="pausebutton">
+                <div class="videoProgressTimeArea">
+                    <h4 id="currentTime" class="currentTime"> 00:00 </h4>
+                    <h4 class="timeDivider"> -- </h4>
+                    <h4 id="videoDuration" class="videoDuration"> 00:00</h4>
+                </div>
+            </div>
+            <div class="muteUnmuteArea">
+                <img onclick="muteVideo()" id="muteButton" class="icon muteButton" src="VideoPlayerImages/MuteColor.png" alt="muteButton">
+                <h4 id="muteText" class="muteText">Mute</h4>
+                <img onclick="unmuteVideo()" id="unmuteButton" class="icon unmuteButton" src="VideoPlayerImages/UnmuteColor.png" alt="unmuteButton">
+            </div>
+            <div class="RewindFastForwardArea">
+                <img id="rewindButton" class="icon rewindButton" src="VideoPlayerImages/RewindButtonColor.png" alt="rewindButton">
+                <img id="fastForwardButton" class="icon fastForwardButton" src="VideoPlayerImages/FastForwardbuttonColor.png" alt="FastForwardbutton">
+            </div>
+            <div class="EpisodeChangeArea">
+                <img class="icon previousEpisodeButton" src="VideoPlayerImages/leftArrowButtonColor.png" alt="previousEpisodeButton">
+                <img class="icon nextEpisodeButton" src="VideoPlayerImages/rightArrowButtonColor.png" alt="nextEpisodeButton">
+                <img class="icon chooseNewEpisode" src="VideoPlayerImages/EpisodesButtonColor.png" alt="chooseNewEpisode">
+                <div class="divider"></div>
+            </div>
+            <div class="videoPosition">
+                <img onclick="PipButton()" id="PipButton" class="icon PipButton" src="VideoPlayerImages/PipButtonColor.png" alt="PipButton">
+                <img id="fullScreenbutton" class="icon fullScreenbutton" src="VideoPlayerImages/fullscreenColor.png" alt="fullScreenbutton">
+                <img id="exitFullScreenbutton" class="icon exitFullScreenbutton" src="VideoPlayerImages/exitFullscreenColor.png" alt="exitFullScreenbutton">
+
+            </div>
+
+        </div>
+    </div>
+    <script src="Js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,513 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #0e0e0e;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: verdana;
+}
+
+.coolLines1 {
+    width: 1000px;
+    position: absolute;
+    left: -400px;
+    top: -440px;
+    z-index: -10;
+}
+
+.coolLines1 {
+    -webkit-animation: rotation 50s infinite linear;
+    /* linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%) */
+}
+
+.coolLines2 {
+    width: 1000px;
+    position: absolute;
+    right: -470px;
+    bottom: -500px;
+    z-index: -10;
+}
+
+.coolLines2 {
+    -webkit-animation: rotation 50s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.circleLightThing1 {
+    position: absolute;
+    width: 376px;
+    height: 376px;
+    left: -163px;
+    top: -87px;
+    background: radial-gradient(50% 50% at 50% 50%, #FF8A00 0%, rgba(255, 138, 0, 0.3) 0.01%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing2 {
+    position: absolute;
+    width: 585px;
+    height: 585px;
+    right: 76px;
+    top: -293px;
+    background: radial-gradient(50% 50% at 50% 50%, #A8A8A8 0%, rgba(0, 255, 194, 0.2) 0.01%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing3 {
+    position: absolute;
+    width: 368px;
+    height: 368px;
+    left: 725px;
+    top: 67px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0) 100%);
+}
+
+.circleLightThing4 {
+    position: absolute;
+    width: 542px;
+    height: 542px;
+    right: 1094px;
+    top: 403px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(63, 97, 217, 0.48) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing5 {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 700px;
+    top: 744px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 245, 0.3) 0%, rgba(82, 82, 82, 0) 100%);
+}
+
+.circleLightThing6 {
+    position: absolute;
+    width: 331px;
+    height: 331px;
+    right: -141px;
+    top: 450px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(13, 0, 255, 0.31) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing7 {
+    position: absolute;
+    width: 368px;
+    height: 368px;
+    left: 158px;
+    top: 192px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 71, 255, 0.3) 0%, rgba(0, 71, 255, 0) 100%);
+}
+
+.circleLightThing8 {
+    position: absolute;
+    width: 331px;
+    height: 331px;
+    right: 94px;
+    top: 714px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(250, 255, 0, 0.31) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing9 {
+    position: absolute;
+    width: 585px;
+    height: 585px;
+    left: 1043px;
+    top: -166px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(13, 0, 166, 0) 0%, #0D00A6 0%, rgba(202, 162, 19, 0.39) 0.01%, rgba(0, 0, 0, 0) 100%);
+}
+
+.circleLightThing10 {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    right: 1320px;
+    top: 283px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 214, 0.3) 0%, rgba(82, 82, 82, 0) 100%);
+}
+
+.circleLightThing11 {
+    position: absolute;
+    width: 585px;
+    height: 585px;
+    left: 490px;
+    top: 289px;
+    background: radial-gradient(50% 50% at 50% 50%, #A8A8A8 0%, rgba(255, 122, 0, 0.33) 0.01%, rgba(0, 0, 0, 0) 100%);
+}
+
+.mainContent {
+    /* background-color: #ffffff; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SecondaryMain {
+    width: 100%;
+    height: 20%;
+    margin: 0px;
+    /* background-color: #0D00A6; */
+}
+
+.topBanner {
+    /* background-color: #ff7c7c; */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logoArea {}
+
+.logo {
+    width: 250px;
+    margin: 0px;
+    margin-top: -25px;
+}
+
+.mainAreas {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightArea {
+    /* background-color: #7cffde; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftArea {
+    /* background-color: #ff7cf4; */
+    width: 60%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.catagoriesTxtArea {
+    display: flex;
+    padding-top: 30px;
+}
+
+.catagoriesTxt {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.catagoriesTxt:hover {
+    color: #ff8383;
+}
+
+.adminArea {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+.searchInputBox {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.darkLightModeSlider {
+    width: 100px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.themeModecircle {
+    width: 40px;
+    height: 40px;
+    background: #645CFC;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.settingsButton,
+.ProfileButton,
+.searchInputBox {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.settingsButton:hover,
+.ProfileButton:hover,
+.searchInputBox:hover {
+    background-color: #ff8383;
+}
+
+.settingsBtnIcon,
+.ProfileBtnicon,
+.SerchIcon {
+    width: 60px;
+}
+
+.MoviesBox,
+.TvShowsBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.MovieTxtArea,
+.TvShowsTxtArea {
+    width: 300px;
+    height: 60px;
+}
+
+.MovieTxt,
+.TvShowsTxt {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.moviesArea,
+.tvShowArea {
+    /* background-color: #FF8A00; */
+    width: 320px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.moviesArea::-webkit-scrollbar,
+.tvShowArea::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+}
+
+.moviesArea::-webkit-scrollbar-track,
+.tvShowArea::-webkit-scrollbar-track {
+    background-color: #fafafa;
+    border-radius: 50px;
+}
+
+.moviesArea::-webkit-scrollbar-thumb,
+.tvShowArea::-webkit-scrollbar-thumb {
+    background-color: #645CFC;
+    border-radius: 50px;
+}
+
+.movieBtn,
+.TvShowBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(201, 0, 0); */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    cursor: pointer;
+}
+
+.MovieCarForMovieTitle,
+.TvShowCarForTvShowTitle {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.movieBtnTitleTxt,
+.TvShowBtnTitleTxt {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.MainScreenContent {
+    display: flex;
+}
+
+.areaTitle {
+    /* background-color: #0D00A6; */
+    width: 100%;
+    height: auto;
+}
+
+.areaTitleTxt {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    /* background-color: #00a640; */
+}
+
+.mainRecArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    /* background-color: #FF8A00; */
+}
+
+.RecImgArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    /* background-color: #00a640; */
+}
+
+.RecImgAreaImg {
+    min-width: 700px;
+    border-radius: 10px;
+    margin: 5px;
+    /* background-color: #a62f00; */
+}
+
+.lowerMainArea {
+    display: flex;
+    /* background-color: #A8A8A8; */
+}
+
+.recConent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerMainArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recLogoArea {
+    /* background-color: aqua; */
+    margin: 5px;
+}
+
+.recLogo {
+    width: 200px;
+}
+
+.titleInfo {
+    /* background-color: rgb(89, 89, 201); */
+    margin-left: 10px;
+}
+
+.TitleInfoTxt {
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.hrLine {
+    border-color: rgb(255, 255, 255);
+}
+
+
+/* .contentSliderArea {
+    width: 400px;
+    max-height: 120px;
+    /* background-color: #FF8A00; */
+
+display: flex;
+justify-content: space-between;
+height: auto;
+align-items: center;
+
+}
+.SliderArrowImg {
+    width: 50px;
+}
+.previousArrow,
+.nextArrow {
+    /* background-color: #fafafa; */
+}
+.bubblesArea {
+    display: flex;
+    /* background-color: #fafafa; */
+}
+.bubble {
+    background-color: #645CFC;
+    margin: 10px;
+}
+#bubble1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    /* border-color: #FF00F5; */
+}
+#bubble2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+#bubble3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+/* .buble on selected{
+        border-style: solid;
+        border-width: 5px;
+    }
+*/
+*/
+/* ax height 800ox */
+@media only screen and (max-height: 850px) {
+    /* body {
+        background-color: #ffffff;
+    } */
+    
+    .RecImgAreaImg {
+        min-width: 500px;
+    }
+}

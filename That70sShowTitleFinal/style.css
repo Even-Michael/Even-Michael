@@ -1,0 +1,392 @@
+body {
+    font-family: Verdana;
+    user-select: none;
+    /* background-color: black;
+    background-image: url("../../../Images/SlideShowBackgroundImages/That70sShow/BgndSlidShow5.png");
+    box-shadow: inset 750px 0px 500px rgba(0, 0, 0, 1);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s; */
+}
+
+.dropShadowCreater {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 20px 20px 0px;
+    width: 20px;
+    height: 100%;
+    margin: 0px;
+    background: #645CFC;
+}
+
+#comeBackToMe {
+    display: flex;
+}
+
+.fullLeftAndRightWrapper {
+    display: flex;
+}
+
+.leftArea {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+/* button area */
+
+.backButtonArea {
+    background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+    box-shadow: 0px 0px 20px 10px rgba(100, 92, 252, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 140px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.backButtonArea:hover {
+    transform: scale(1.1);
+    margin: 10px;
+}
+
+.backButton {
+    width: 100px;
+}
+
+
+/* play area */
+
+.playArea {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+/* watchNowButton area */
+
+.watchNowButton {
+    background: linear-gradient(261.85deg, #FF00F5 0%, #645CFC 0.02%, #FF00F5 181.54%);
+    box-shadow: 0px 0px 20px 10px rgba(100, 92, 252, 0.5);
+    border-radius: 10px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.watchNowButton:hover {
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.watchNowButton:active {
+    transform: scale(.80);
+}
+
+.watchNowText {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    text-align: left;
+    width: 320px;
+    font-weight: 300;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.watchNowPlayButtonIconArea {
+    width: 50px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.watchNowPlayButtonIcon {
+    width: 50%;
+}
+
+
+/* add to list area */
+
+.addToListButton {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(80, 80, 80);
+    box-shadow: 0px 0px 20px 10px rgba(80, 80, 80, 0.5);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.addToListButton:hover {
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.addToListButton:active {
+    transform: scale(.80);
+}
+
+.addToListText {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    text-align: left;
+    width: 320px;
+    font-weight: 300;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.addToListButtonIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* heart button area */
+
+.heartButton {
+    width: 80px;
+    background: linear-gradient(262.94deg, #FF00F5 -84.74%, #645CFC 100%);
+    box-shadow: 0px 0px 20px 10px rgba(100, 92, 252, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.heartButton:hover {
+    transform: scale(1.1);
+    margin-right: 20px;
+}
+
+.heartButton:active {
+    transform: scale(.80);
+}
+
+.heartButtonButtonIcon {
+    width: 40px;
+}
+
+
+/* season selector */
+
+.epAndSeasonSelector {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.seasonSelector {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    overflow-x: scroll;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.seasonBtn {
+    background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    height: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.seasonBtn:hover {
+    transform: scale(1.2);
+    margin: 20px;
+}
+
+.seasonText {
+    color: white;
+    margin: 0px;
+}
+
+
+/* epsisode selector area */
+
+.episodeSelector {
+    height: 430px;
+    width: 80%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.episodeButton {
+    background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff9c;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #645CFC;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #645CFC;
+}
+
+.episodeButton:hover {
+    transform: scale(.9);
+}
+
+.episodeButtonImg {
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.buttonEpDeatails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.btTitle {
+    font-size: 20px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+}
+
+
+/* right Area */
+
+
+/* title info area */
+
+.rightArea {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 50%;
+}
+
+.titleInfo {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.basicTitleInfo {
+    width: 150px;
+    height: auto;
+    background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+    box-shadow: 0px 0px 20px 10px rgba(100, 92, 252, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.basicInfoText {
+    list-style-type: none;
+    color: white;
+}
+
+.basicIntitleInfoLine {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* titlesynopsisArea */
+
+.titlesynopsisArea {
+    background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+    box-shadow: 0px 0px 20px 10px rgba(100, 92, 252, 0.5);
+    border-radius: 20px;
+    width: 70%;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.synopsisText {
+    color: white;
+}
+
+.logoArea {
+    width: 100%;
+}
+
+.showTitle {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.titleLogo {
+    width: 300px;
+    margin-right: 50px;
+}

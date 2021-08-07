@@ -1,0 +1,13 @@
+.titleLogoImg {
+    width: 800px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: -100px;
+    filter: drop-shadow(0px 0px 100px #ffffff);
+}
+
+.episodeButtonImg {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}

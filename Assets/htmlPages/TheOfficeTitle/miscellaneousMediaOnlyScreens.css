@@ -1,0 +1,53 @@
+    @media only screen and (min-height: 910px) {
+        .leftSide {
+            /* height: 80%; */
+        }
+        .titleLogoImg {
+            width: 700px;
+        }
+    }
+    
+    @media only screen and (max-width: 1850px) {
+        .titleLogoImg {
+            width: 400px;
+        }
+    }
+    
+    @media only screen and (max-width: 1448px) {
+        .titleLogoImg {
+            width: 400px;
+        }
+    }
+    
+    @media only screen and (max-width: 1300px) {
+        .quickActionsArea {
+            flex-direction: column;
+        }
+        .Seprate2 {
+            display: flex;
+            margin-top: 10px;
+            margin-left: -10px;
+        }
+    }
+    
+    @media only screen and (max-width: 1163px) {
+        .episodeButton {
+            background: linear-gradient(258.82deg, #FF00F5 -70.15%, #645CFC 53.64%);
+            border-radius: 10px;
+            width: 436px;
+            height: 360px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+            transition: all .5s;
+            cursor: pointer;
+        }
+        .episodeButtonImg {
+            width: 400px;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+    }

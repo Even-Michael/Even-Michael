@@ -1,0 +1,39 @@
+.episodeSelectorS1 {
+    display: flex;
+}
+
+.episodeSelectorS2 {
+    display: none;
+}
+
+.episodeSelectorS3 {
+    display: none;
+}
+
+.episodeSelectorS4 {
+    display: none;
+}
+
+.episodeSelectorS5 {
+    display: none;
+}
+
+.episodeSelectorS6 {
+    display: none;
+}
+
+.episodeSelectorS7 {
+    display: none;
+}
+
+.episodeSelectorS8 {
+    display: none;
+}
+
+#MainPage {
+    display: flex;
+}
+
+#videoPlayArea {
+    display: none;
+}

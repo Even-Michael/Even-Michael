@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="videoContainer">
+        <video onclick="playPause()" id="videoBox" class="video" src="../../Media/Box/Shrek.2.mp4"></video>
+        <div class="controls">
+            <div class="shadowMaker"></div>
+
+            <div class="progress">
+                <div class="progressBar">
+                    <div class="watchedBar"></div>
+                    <div class="playHead"></div>
+                </div>
+                <div class="timeRemaining">
+                    00:00
+                </div>
+            </div>
+            <div class="EpStatus">
+                <!-- <img src="that-70s-show.logo.png" alt=""> -->
+                <p class="EpNumber" id="episodeNumber">
+                    Choose an Episode
+                </p>
+                <p class="EpTitle" id="episodeTitle">
+                    Choose an Episode
+                </p>
+            </div>
+            <div class="leftSideControls">
+                <div class="insideLeftHandSeperaterpart1">
+                    <div class="playPauseArea">
+                        <img onclick="playVid(0)" id="playButton" class="icon playButton" src="VidPlayerIcons/PlayButtonColor.png" alt="playbutton">
+                        <img onclick="pauseVid(1)" id="pauseButton" class="icon pauseButton" src="VidPlayerIcons/PauseButtonColor.png" alt="pausebutton">
+                    </div>
+                    <div class="muteUnmuteArea">
+                        <img onclick="muteVideo()" id="muteButton" class="icon muteButton" src="VidPlayerIcons/MuteColor.png" alt="muteButton">
+                        <img onclick="unmuteVideo()" id="unmuteButton" class="icon unmuteButton" src="VidPlayerIcons/UnmuteColor.png" alt="unmuteButton">
+                    </div>
+                </div>
+                <div class="insideLeftHandSeperaterpart2">
+                    <div class="videoProgressTimeArea">
+                        <h4 id="currentTime" class="currentTime"> 00:00 </h4>
+                        <h4 class="timeDivider"> - - </h4>
+                        <h4 id="videoDuration" class="videoDuration"> 00:00</h4>
+                        <img id="rewindButton" class="icon rewindButton" src="VidPlayerIcons/RewindButtonColor.png" alt="rewindButton">
+                        <img id="fastForwardButton" class="icon fastForwardButton" src="VidPlayerIcons/FastForwardbuttonColor.png" alt="FastForwardbutton">
+                    </div>
+                </div>
+            </div>
+            <div class="rightSideControls">
+                <div class="insideRightHandSeperaterpart1">
+                    <div class="episodeChangingArrows">
+                        <img class="icon previousEpisodeButton" src="VidPlayerIcons/leftArrowButtonColor copy.png" alt="previousEpisodeButton">
+                        <img class="icon nextEpisodeButton" src="VidPlayerIcons/rightArrowButtonColor.png" alt="nextEpisodeButton">
+                    </div>
+                    <div class="mainEpChooser">
+                        <img class="icon chooseNewEpisode" src="VidPlayerIcons/EpisodesButtonColor.png" alt="chooseNewEpisode">
+                    </div>
+                </div>
+                <div class="insideRightHandSeperaterpart2">
+                    <img id="fullScreenbutton" class="icon fullScreenbutton" src="VidPlayerIcons/fullscreenColor.png" alt="fullScreenbutton">
+                    <img id="exitFullScreenbutton" class="icon exitFullScreenbutton" src="VidPlayerIcons/exitFullscreenColor.png" alt="exitFullScreenbutton">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="vidPlayerApp.js"></script>
+</body>
+
+</html>

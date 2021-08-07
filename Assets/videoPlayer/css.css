@@ -1,0 +1,211 @@
+body {
+    user-select: none;
+    background-color: black;
+    font-family: Verdana;
+    color: white;
+    overflow: hidden;
+}
+
+.videoProgressTimeArea {
+    margin-left: 80px;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.9s linear;
+}
+
+.controls {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    transition: opacity 0.5s linear;
+}
+
+.playPauseArea {
+    position: relative;
+}
+
+.playButton {
+    position: absolute;
+    visibility: visible;
+}
+
+.pauseButton {
+    position: absolute;
+    visibility: hidden;
+}
+
+.videoProgressTimeArea {
+    color: white;
+    font-family: Verdana;
+    display: flex;
+}
+
+.EpStatus {
+    position: absolute;
+    bottom: 100px;
+    filter: drop-shadow(0px 0px 5px #645CFC);
+}
+
+.EpNumber {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.EpTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+}
+
+.videoPosition {
+    position: relative;
+    right: 100px;
+}
+
+.fullScreenbutton {
+    position: absolute;
+    visibility: visible;
+}
+
+.exitFullScreenbutton {
+    position: absolute;
+    visibility: hidden;
+}
+
+.icon {
+    width: 25px;
+    margin: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px #645CFC);
+    transition: transform 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.nextEpisodeButton {}
+
+.muteButton {
+    position: absolute;
+    visibility: visible;
+    left: 250px;
+}
+
+.unmuteButton {
+    position: absolute;
+    visibility: hidden;
+    left: 250px;
+}
+
+.muteText {
+    position: absolute;
+    width: auto;
+    left: 300px;
+    transition: transform 0.5s;
+}
+
+@media only screen and (max-width: 720px) {
+    .EpisodeChangeArea {
+        display: none;
+    }
+    .muteButton {
+        visibility: hidden;
+    }
+    .unmuteButton {
+        visibility: hidden;
+    }
+    .muteText {
+        visibility: hidden;
+    }
+    .PipButton {
+        visibility: hidden;
+    }
+}
+
+.RewindFastForwardArea {
+    left: 40px;
+}
+
+.fastForwardButton {
+    width: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.rewindButton {
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.fastForwardButton :hover {
+    transform: scale(1.2);
+}
+
+.rewindButton :hover {
+    transform: scale(1.2);
+}
+
+
+/* ---------------------------- */
+
+.progress {
+    position: absolute;
+    bottom: 80px;
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.progressBar {
+    width: 100%;
+    height: 5px;
+    max-height: 7px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.watchedBar {
+    background: #645CFC;
+    display: inline-block;
+    transition: all 0.2s;
+    cursor: pointer;
+    align-items: center;
+    height: 5px;
+}
+
+.playHead {
+    height: 30px;
+    width: 30px;
+    max-height: 25px;
+    max-width: 25px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background: #645CFC;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.timeRemaining {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    display: block;
+}
